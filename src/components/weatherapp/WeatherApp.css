@@ -88,3 +88,29 @@ body{
     background-image: url("../assets/pexels-x-y-2403402.jpg");
     background-size: 100% 100%;
 }
+
+/* Extra Small Devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Styles for extra small devices go here */
+
+}
+
+/* Small Devices (portrait tablets and large phones, 601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Styles for small devices go here */
+}
+
+/* Medium Devices (landscape tablets, 769px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Styles for medium devices go here */
+}
+
+/* Large Devices (desktops, 993px to 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Styles for large devices go here */
+}
+
+/* Extra Large Devices (large desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+    /* Styles for extra large devices go here */
+}

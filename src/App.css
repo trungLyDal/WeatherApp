@@ -3,14 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width: 100%; /* Ensure the logo doesn't exceed its parent's width */
+  height: auto;   /* Allow the logo's height to adjust proportionally */
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -20,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(1rem + 2vmin); /* Use relative font size */
   color: white;
 }
 
@@ -36,3 +31,4 @@
     transform: rotate(360deg);
   }
 }
+
